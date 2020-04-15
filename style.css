@@ -5,16 +5,23 @@ margin: 0;
 
  .container {
     width: 100%;
+    min-height: 100%;
     margin: auto;
     display: grid;
-    grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
 }
 
 .header {
     display: grid;
     grid-template-columns: 8% 70% 1fr 1fr 1fr;
 }
-
+    a {
+        color: black;
+        font-family: tahoma;
+        font-size: 12px;
+        text-decoration: none;
+    }
     .about {
         display: grid;
     }
@@ -85,6 +92,11 @@ margin: 0;
 .footer {
     display: grid;
     grid-template-columns: 10% 10% 52% 10% 10% 10%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e6e6e6;
 }
 
     .advertise {

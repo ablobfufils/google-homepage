@@ -3,88 +3,88 @@ padding: 0;
 margin: 0;
 }
 
-main {
+ .container {
     width: 100%;
     margin: auto;
-    grid-template-rows:
-    grid-template-columns:
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
 }
 
- #headers {
-    
+.header {
+    display: grid;
+    grid-template-columns: 8% 70% 1fr 1fr 1fr;
 }
 
-#header {
-    display: ;
-}
-    #about {
-        display:;
+    .about {
+        display: grid;
     }
 
-    #store {
-        display:;
+    .store {
+        display: grid;
     }
 
-    #gmail {
-        display:;
+    .gmail {
+        display: grid;
     }
 
-    #images {
-        display:;
+    .images {
+        display: grid;
     }
 
-    #signin {
-        display:;
+    .signin {
+        display: grid;
     }
 
 .content {
-    display:;
+    display: grid;
+    justify-content: center;
 }
 
-    #logo {
-        display:;
+    .logo {
+        display: grid;
     }
 
-    #search-bar {
-        display:;
+    .search-bar {
+        display: grid;
     }
 
 .buttons {
-    display:;
+    display: grid;
+    justify-content: center;
 }
-    #google-search {
-        display:;
+    .google-search {
+        display: grid;
     }
 
-    #im-feeling-lucky {
-        display:;
+    .im-feeling-lucky {
+        display: grid;
     }
 
 .footer {
-    display:;
-    flex-flow:;
+    display: grid;
+    grid-template-columns: 10% 10% 52% 10% 10% 10%;
 }
 
-    #advertise {
+    .advertise {
         display:;
     }
 
-    #business {
+    .business {
         display:;
     }
 
-    #how-search-works {
+    .how-search-works {
         display:;
     }
 
-    #privacy {
+    .privacy {
         display:;
     }
 
-    #terms {
+    .terms {
         display:;
     }
 
-    #settings {
+    .settings {
         display:;
     }

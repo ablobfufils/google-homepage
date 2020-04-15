@@ -3,15 +3,15 @@ main {
     grid-template-rows: 20px 90% 20px;
 }
 
-#grid1 {
+#header {
     display: flex;
     flex-flow: row;
 }
 
-#grid2 {
+#content {
     display: flex;
 }
 
-#grid3 {
+#footer {
     display: flex;
 }

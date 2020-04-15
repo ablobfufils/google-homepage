@@ -1,11 +1,16 @@
 main {
     display: grid;
-    grid-template-rows: 20px 90% 20px;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-areas: "header"
+                         "content"
+                         "buttons"
+                         "footer";
 }
 
 #header {
-    display: flex;
+    display: grid;
     flex-flow: row;
+    grid-area: header;
 }
     .about {
         display:;
@@ -28,7 +33,8 @@ main {
     }
 
 #content {
-    display: flex;
+    display: grid;
+    grid-area: content;
 }
 
     .logo {
@@ -40,7 +46,8 @@ main {
     }
 
 #buttons {
-    display: flex;
+    display: grid;
+    grid-area: buttons;
 }
     .google-search {
         display:;
@@ -51,8 +58,8 @@ main {
     }
 
 #footer {
-    display: flex;
-    flex-flow: row;
+    display: grid;
+    grid-area: footer;
 }
 
     .advertise {

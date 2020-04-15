@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-rows: 20px 90% 20px;
+}
+
+#grid1 {
+    display: flex;
+    flex-flow: row;
+}
+
+#grid2 {
+    display: flex;
+}
+
+#grid3 {
+    display: flex;
+}

@@ -66,25 +66,25 @@ margin: 0;
 }
 
     .advertise {
-        display:;
+        display: grid;
     }
 
     .business {
-        display:;
+        display: grid;
     }
 
     .how-search-works {
-        display:;
+        display: grid;
     }
 
     .privacy {
-        display:;
+        display: grid;
     }
 
     .terms {
-        display:;
+        display: grid;
     }
 
     .settings {
-        display:;
+        display: grid;
     }

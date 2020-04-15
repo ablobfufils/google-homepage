@@ -7,12 +7,74 @@ main {
     display: flex;
     flex-flow: row;
 }
+    .about {
+        display:;
+    }
+
+    .store {
+        display:;
+    }
+
+    .gmail {
+        display:;
+    }
+
+    .images {
+        display:;
+    }
+
+    .signin {
+        display:;
+    }
 
 #content {
     display: flex;
 }
 
+    .logo {
+        display:;
+    }
+
+    .search-bar {
+        display:;
+    }
+
+#buttons {
+    display: flex;
+}
+    .google-search {
+        display:;
+    }
+
+    .im-feeling-lucky {
+        display:;
+    }
+
 #footer {
     display: flex;
     flex-flow: row;
 }
+
+    .advertise {
+        display:;
+    }
+
+    .business {
+        display:;
+    }
+
+    .how-search-works {
+        display:;
+    }
+
+    .privacy {
+        display:;
+    }
+
+    .terms {
+        display:;
+    }
+
+    .settings {
+        display:;
+    }

@@ -1,87 +1,90 @@
+html, body {
+padding: 0;
+margin: 0;
+}
+
 main {
-    display: grid;
-    grid-template-columns:25% 25% 25% 25%;
-    grid-template-areas: "header"
-                         "content"
-                         "buttons"
-                         "footer";
+    width: 100%;
+    margin: auto;
+    grid-template-rows:
+    grid-template-columns:
+}
+
+ #headers {
+    
 }
 
 #header {
-    display: grid;
-    flex-flow: row;
-    grid-area: header;
+    display: ;
 }
-    .about {
+    #about {
         display:;
     }
 
-    .store {
+    #store {
         display:;
     }
 
-    .gmail {
+    #gmail {
         display:;
     }
 
-    .images {
+    #images {
         display:;
     }
 
-    .signin {
+    #signin {
         display:;
     }
 
-#content {
-    display: grid;
-    grid-area: content;
+.content {
+    display:;
 }
 
-    .logo {
+    #logo {
         display:;
     }
 
-    .search-bar {
+    #search-bar {
         display:;
     }
 
-#buttons {
-    display: grid;
-    grid-area: buttons;
+.buttons {
+    display:;
 }
-    .google-search {
+    #google-search {
         display:;
     }
 
-    .im-feeling-lucky {
+    #im-feeling-lucky {
         display:;
     }
 
-#footer {
-    display: grid;
-    grid-area: footer;
+.footer {
+    display:;
+    flex-flow:;
 }
 
-    .advertise {
+    #advertise {
         display:;
     }
 
-    .business {
+    #business {
         display:;
     }
 
-    .how-search-works {
+    #how-search-works {
         display:;
     }
 
-    .privacy {
+    #privacy {
         display:;
     }
 
-    .terms {
+    #terms {
         display:;
     }
 
-    .settings {
+    #settings {
         display:;
     }
